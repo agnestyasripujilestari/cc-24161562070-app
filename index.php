@@ -2,7 +2,7 @@
 <?php
 // Buku tamu PHP + PDO + PostgreSQL.
 const PEMILIK = "24161562070 - AGNESTYA SRI PUJI LESTARI";
-const VERSI = "1.0";
+const VERSI = "2.0";
 
 // Koneksi database dari environment variable DATABASE_URL.
 function db(int $timeout = 5): PDO {
